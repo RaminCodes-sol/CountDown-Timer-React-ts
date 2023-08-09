@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    *, :root {
+        @apply p-0 m-0 box-border;
+    }
+    body {
+        @apply bg-[url('https://i.postimg.cc/4dsbZ3zN/vincenzo-malagoli-flfh-Al-Ew-Dq4-unsplash.jpg')] bg-no-repeat bg-cover text-white;
+    }
+    h1 {
+        @apply text-8xl mb-3;
+    }
+    span  {
+        @apply inline-block font-semibold;
+    }
+}
